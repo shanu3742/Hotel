@@ -1,0 +1,272 @@
+hr.hr{
+  border: 1px solid rgb(36, 35, 35);
+  background-color: rgb(51, 49, 49);
+  position: absolute;
+  width: 96vw;
+  top: 10%;
+  left: 1%;
+
+}
+hr.hr1{
+  border: 1px solid rgb(36, 35, 35);
+  background-color: rgb(51, 49, 49);
+  position: absolute;
+  width: 96vw;
+  top: 30%;
+  left: 1%;
+
+}
+
+.h1{
+    color: rgb(2, 2, 56);
+}
+.div{
+    height: 100vh;
+    border: 1px solid black;
+    position: relative;
+}
+.p{
+   color: rgb(1, 1, 34);
+ 
+}
+.bed{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 1%;
+    
+} 
+.bed1{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 10%;
+    
+} 
+.bed3{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 27%;
+    
+} 
+.minus{
+    
+    background-color: darkblue;
+    position: absolute;
+    right: 12%;
+   
+
+    
+}
+.add{
+    background-color: rgb(192, 38, 38);
+    position: absolute;
+    right: 2%;
+
+}
+.rooms{
+    position: absolute;
+    margin-left: 14px;
+}
+.circle
+  {
+      position: absolute;
+      margin-top: 1%;
+    font-size: 25px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px; 
+    
+
+    
+    
+  }
+  .circle1
+  {
+      position: absolute;
+      margin-top: 10%;
+    font-size: 25px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px; 
+    
+
+    
+    
+  }
+  .circle3
+  {
+      position: absolute;
+      margin-top: 27%;
+    font-size: 25px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px; 
+    
+
+    
+    
+  }
+  .one{
+    position: absolute;
+    margin-top: 0.9%;
+    right: 8%;
+    font-size: 25px;
+
+  }
+  .one1{
+    position: absolute;
+    margin-top: 10%;
+    right: 8%;
+    font-size: 25px;
+
+  }
+  .one3{
+    position: absolute;
+    margin-top: 27%;
+    right: 8%;
+    font-size: 25px;
+
+  }
+  
+
+
+@media(max-width:426px){
+  hr.hr{
+    border: 1px solid rgb(36, 35, 35);
+    background-color: rgb(34, 32, 32);
+    position: absolute;
+    width: 75vw;
+    top: 7%;
+    left: 5%;
+  
+  }
+  hr.hr1{
+    border: 1px solid rgb(36, 35, 35);
+    background-color: rgb(34, 32, 32);
+    position: absolute;
+    width: 75vw;
+    top: 19%;
+    left: 5%;
+  
+  }
+  hr.hr2{
+    border: 1px solid rgb(36, 35, 35);
+    background-color: rgb(34, 32, 32);
+    position: absolute;
+    width: 75vw;
+    top: 31%;
+    left: 5%;
+  
+  }
+    .h1{
+        color: rgb(5, 3, 37);
+    }
+    .minus{
+    
+        background-color: darkblue;
+        position: absolute;
+        right: 30%;
+       
+    
+        
+    }
+    .add{
+        background-color: rgb(192, 38, 38);
+        position: absolute;
+        right: 15%;
+    
+    }
+    .one{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 0.8%;
+        right: 24%;
+    
+      }
+      .bed1{
+        position: absolute;
+        margin-left: 14px;
+        margin-top: 20%;
+        
+    } 
+    .one1{
+        position: absolute;
+        margin-top: 20%;
+        right: 24%;
+        font-size: 25px;
+    
+      }
+      .one3{
+        position: absolute;
+        margin-top: 38%;
+        right: 24%;
+        font-size: 25px;
+    
+      }
+    
+    .circle1
+    {
+        position: absolute;
+        margin-top: 20%;
+      font-size: 25px;
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px; 
+      
+  
+      
+      
+    }
+    .circle3
+    {
+        position: absolute;
+        margin-top: 38%;
+      font-size: 25px;
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px; 
+      
+  
+      
+      
+    }
+    .bed3{
+        position: absolute;
+        margin-left: 14px;
+        margin-top: 39%;
+        
+    } 
+    
+    
+      
+
+}
+@media(min-width:775px){
+    .h1{
+        color: rgb(4, 3, 68);
+    }
+}
